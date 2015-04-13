@@ -1,3 +1,12 @@
 #show-tusk {
   display: none;
 }
+
+.task {
+  cursor: pointer;
+  color: orange;
+}
+
+.task:hover {
+  text_decoration: underline;
+}
