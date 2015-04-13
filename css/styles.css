@@ -2,11 +2,35 @@
   display: none;
 }
 
+h1 {
+  text-align: center;
+}
 .task {
   cursor: pointer;
   color: orange;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+
 }
 
 .task:hover {
-  text_decoration: underline;
+  text-decoration: underline;
+}
+
+.done {
+  text-decoration: line-through;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+
+}
+.done:hover {
+  text-decoration: line-through;
+}
+
+.fine-print {
+  font-size: 7px;
 }
